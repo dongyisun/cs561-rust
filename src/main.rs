@@ -1,6 +1,7 @@
 mod model;
 
 #[tokio::main]
+#small change
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // A hard-coded JSON
     let json = r#"
